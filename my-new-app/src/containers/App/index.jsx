@@ -1,11 +1,15 @@
 import React from 'react'
  
-class NotFound extends React.Component {
+const myStyle = {
+    fontSize: '12px',
+    color: 'red'
+}
+class App extends React.Component {
     render() {
         return (
-            <p>404 NotFound</p>
+            <p style={myStyle}>我是app组件</p>
         )
     }
 }
  
-export default NotFound;
+export default App;
